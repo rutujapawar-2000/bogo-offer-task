@@ -1,0 +1,102 @@
+body {
+  font-family: 'Arial', sans-serif;
+  padding: 20px;
+  background: #fff;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  color: #f06292;
+}
+
+.offer-box {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 10px;
+  position: relative;
+  background-color: #fff;
+}
+
+.offer-box input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.tag {
+  background-color: #f06292;
+  color: white;
+  padding: 2px 6px;
+  font-size: 12px;
+  border-radius: 3px;
+  margin-left: 5px;
+}
+
+.most-popular {
+  position: absolute;
+  right: -1px;
+  top: -1px;
+  background-color: #f06292;
+  color: white;
+  font-size: 12px;
+  padding: 3px 8px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.price,
+.old-price {
+  float: right;
+}
+
+.old-price {
+  text-decoration: line-through;
+  color: #bbb;
+  font-size: 12px;
+}
+
+.unit-options {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: 10px;
+}
+
+.unit-options select {
+  margin-right: 10px;
+  padding: 3px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.total-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  color: #f06292;
+  font-weight: bold;
+}
+
+.add-to-cart {
+  width: 100%;
+  background-color: #f06292;
+  border: none;
+  padding: 12px;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.powered {
+  text-align: center;
+  font-size: 12px;
+  color: #aaa;
+  margin-top: 10px;
+}
+
+/* Highlighted style for "2 Unit - Most Popular" box */
+.highlighted {
+  border: 2px solid #f06292;
+  background-color: #ffe6ef;
+}
