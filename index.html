@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BOGO Offer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>YAY! It's BOGO</h1>
+
+  <div class="offer-box">
+    <label><input type="checkbox" class="unit-option" data-price="10">1 Unit <span class="tag">10% Off</span></label>
+    <div class="price">$10.00 USD <span class="old-price">$24.00 USD</span></div>
+    <div style="clear: both">Standard Price</div>
+  </div>
+
+  <div class="offer-box highlighted">
+    <div class="most-popular">MOST POPULAR</div>
+    <label><input type="checkbox" class="unit-option" data-price="18">2 Unit <span class="tag">20% Off</span></label>
+    <div class="price">$18.00 USD <span class="old-price">$24.00 USD</span></div>
+
+    <div class="unit-options">
+      <div>
+        #1 Size: <select><option>S</option></select>
+        Colour: <select><option>Black</option></select>
+      </div>
+      <div>
+        #2 Size: <select><option>S</option></select>
+        Colour: <select><option>Colour</option></select>
+      </div>
+    </div>
+  </div>
+
+  <div class="offer-box">
+    <label><input type="checkbox" class="unit-option" data-price="24">3 Unit <span class="tag">30% Off</span></label>
+    <div class="price">$24.00 USD <span class="old-price">$24.00 USD</span></div>
+  </div>
+
+  <div class="total-section">
+    <div>Free Delivery</div>
+    <div id="total-price">Total : $0.00 USD</div>
+  </div>
+
+  <button class="add-to-cart">+ Add to Cart</button>
+  <div class="powered">@ Powered by Pumper</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
